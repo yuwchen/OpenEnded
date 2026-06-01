@@ -20,8 +20,11 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--ckptdir", type=str, help="Path to pretrained checkpoint.")
+    parser.add_argument("--wavpath", type=str, help="Path to wavfile.")
 
     args = parser.parse_args()
+
+    wavpath = args.wavpath
 
     my_checkpoint_dir = args.ckptdir
     pretrain_dim = 256
@@ -46,11 +49,9 @@ def main():
 
     max_length = 15
 
-    filepath = "path/to/wav/file"
-
     with torch.no_grad():
 
-        wav, sr = torchaudio.load(filepath)
+        wav, sr = torchaudio.load(wavpath)
         if sr != SAMPLE_RATE:
             transform = torchaudio.transforms.Resample(sr, SAMPLE_RATE)
             wav = transform(wav)
