@@ -36,7 +36,7 @@ python inference_example.py --ckptdir ./checkpoint/voxpa --wavpath /path/to/wavf
 ```
 
 
-## Acknowledge
+## Acknowledgment
 - [Vox-Profile](https://github.com/tiantiaf0627/vox-profile-release/tree/main)
 
 ## Citation
