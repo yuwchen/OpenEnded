@@ -23,6 +23,7 @@ Download data from [huggingface]
 ```
 conda create -n voxpa python=3.8
 cd OpenEnded-main
+conda activate voxpa
 pip install -e .
 ```
 
