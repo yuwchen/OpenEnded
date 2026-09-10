@@ -47,7 +47,7 @@ python inference_example.py --ckptdir ./checkpoint/voxpa --wavpath /path/to/wavf
 
 ## Citation
 @inproceedings{chen2026openended,  
-title = {OpenEnded: An Open-Response Speech Corpus for Speaking Assessment with Human Annotations and ALM Supervision},  
+title = {OpenEnded: An Open-Response Speech Corpus for Speaking Proficiency Assessment with Human Annotations and ALM Supervision},  
 author = {Yu-Wen Chen, Eric Zhou, Evelyn Ding, Tianyi Shen, Zhou Yu, Julia Hirschberg},  
 booktitle = {Proc. SLT 2026}  
 }  
