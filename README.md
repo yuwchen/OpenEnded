@@ -3,7 +3,7 @@
 
 This repository contains the data and resources accompanying our paper,  
 
-**“OpenEnded: An Open-Response Speech Corpus for Speaking Assessment with Human Annotations and ALM Supervision**,”  
+**“OpenEnded: An Open-Response Speech Corpus for Speaking Proficiency Assessment with Human Annotations and ALM Supervision**,”  
 accepted at SLT 2026.
 
 
